@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/ic_menu_tasks"
+            android:title="Tasks" />
+        <item
+            android:id="@+id/nav_completed_tasks"
+            android:icon="@drawable/ic_menu_completed_tasks"
+            android:title="Completed Tasks" />
+        <item
+            android:id="@+id/nav_cancelled_tasks"
+            android:icon="@drawable/ic_menu_cancelled_tasks"
+            android:title="Cancelled Tasks" />
+        <!--<item
+            android:id="@+id/nav_account_info"
+            android:icon="@drawable/ic_menu_account_info"
+            android:title="Account Info" />-->
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_schedule"
+            android:title="Schedule" />
+    </group>
+
+    <item android:title="Upload Bills">
+        <menu>
+            <item
+                android:id="@+id/nav_food_bills"
+                android:icon="@drawable/ic_menu_food"
+                android:title="Food Bills" />
+            <item
+                android:id="@+id/nav_Travel_bills"
+                android:icon="@drawable/ic_menu_taxi"
+                android:title="Travel Bills" />
+        </menu>
+    </item>
+
+</menu>

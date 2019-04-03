@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date">Date:</string>
+    <string name="enter_bill_amount">Enter Bill Amount</string>
+    <string name="serverIp">192.168.43.139</string>
+
+    <string-array name="Mode_of_Transport">
+        <item>Auto</item>
+        <item>Taxi</item>
+        <item>Bus</item>
+        <item>Train</item>
+    </string-array>
+</resources>
